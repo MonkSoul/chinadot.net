@@ -1,19 +1,656 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dotNET China | 让 .NET 开发更简单，更通用，更流行。</title>
-  </head>
-  <body>
-    <div style="text-align: center; padding: 80px 0 0 0">
-      <img
-        src="./images/logo.png"
-        alt="dotNET China"
-        title="dotNET China"
-        style="margin-bottom: 20px; height: 80px"
-      />
-      <p>让 .NET 开发更简单，更通用，更流行。</p>
-    </div>
-  </body>
-</html>
+<!DOCTYPE html><html><head>
+      <title>dotNET China | 让 .NET 开发更简单，更通用，更流行。</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\snrcsoft\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.6.0\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <p></p>
+<p></p>
+<p></p>
+<p align="center" style="margin-top:40px;">
+  <img src="https://images.gitee.com/uploads/images/2021/0225/132645_21007ea0_974299.png" height="50">
+</p>
+<div align="center">
+<p>&#x8BA9; .NET &#x5F00;&#x53D1;&#x66F4;&#x7B80;&#x5355;&#xFF0C;&#x66F4;&#x901A;&#x7528;&#xFF0C;&#x66F4;&#x6D41;&#x884C;&#x3002;</p>
+</div>
+<h2 class="mume-header" id="%E6%88%91%E4%BB%AC%E7%9A%84%E6%84%BF%E6%99%AF">&#x6211;&#x4EEC;&#x7684;&#x613F;&#x666F;</h2>
+
+<p>&#x8BA9; .NET &#x5F00;&#x53D1;&#x66F4;&#x7B80;&#x5355;&#xFF0C;&#x66F4;&#x901A;&#x7528;&#xFF0C;&#x66F4;&#x6D41;&#x884C;&#x3002;</p>
+<h2 class="mume-header" id="%E7%A4%BE%E5%8C%BA%E5%8F%A3%E5%8F%B7">&#x793E;&#x533A;&#x53E3;&#x53F7;</h2>
+
+<p>&#x51DD;&#x805A;&#x543E;&#x8F88;&#x4E4B;&#x529B;&#xFF0C;&#x6C47;&#x805A;&#x8BF8;&#x541B;&#x4E4B;&#x7EE9;&#xFF0C;&#x62AB;&#x8346;&#x65A9;&#x68D8;&#xFF0C;&#x540C;&#x821F;&#x5171;&#x6D4E;&#xFF0C;&#x543E;&#x7B49;&#x5373;&#x5947;&#x8FF9;&#x3002;</p>
+<h2 class="mume-header" id="%E7%A4%BE%E5%8C%BA%E8%B5%84%E6%96%99">&#x793E;&#x533A;&#x8D44;&#x6599;</h2>
+
+<ul>
+<li>&#x793E;&#x533A;&#x53D1;&#x8D77;&#x4EBA;&#xFF1A;<a href="https://gitee.com/monksoul">&#x767E;&#x5C0F;&#x50E7;</a></li>
+<li>&#x793E;&#x533A;&#x521B;&#x529E;&#x65F6;&#x95F4;&#xFF1A;2021 &#x5E74; 03 &#x6708; 01 &#x65E5;</li>
+<li>dotNET China &#x5B98;&#x65B9;&#x7F51;&#x7AD9;&#xFF1A;<a href="https://www.chinadot.net">https://www.chinadot.net</a></li>
+</ul>
+<p><strong><a href="https://gitee.com/dotnetchina/dotnetchina">&#x1F536; &#x70B9;&#x51FB;&#x67E5;&#x770B;&#x793E;&#x533A;&#x8D44;&#x6599;</a></strong></p>
+<h2 class="mume-header" id="%E7%A4%BE%E5%8C%BA%E6%80%A7%E8%B4%A8">&#x793E;&#x533A;&#x6027;&#x8D28;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x662F;&#x56FD;&#x5185;&#x4E00;&#x7FA4;&#x7231;&#x597D; .NET/C# &#x6280;&#x672F;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x53D1;&#x7EC4;&#x7EC7;&#x6210;&#x7ACB;&#x7684;<strong>&#x975E;&#x5FAE;&#x8F6F;&#x5B98;&#x65B9;&#x793E;&#x533A;&#x7EC4;&#x7EC7;</strong>&#x3002;</p>
+<h2 class="mume-header" id="%E6%A0%87%E5%BF%97%E7%90%86%E5%BF%B5">&#x6807;&#x5FD7;&#x7406;&#x5FF5;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x6807;&#x5FD7;&#x8BBE;&#x8BA1;&#x6B63;&#x662F;&#x8FD9;&#x4E24;&#x4E2A;&#x5355;&#x8BCD;&#x7EC4;&#x6210;&#xFF0C;&#x540C;&#x65F6;&#x628A; <strong>NET</strong> &#x5355;&#x8BCD;&#x8FDB;&#x884C;&#x4E86;&#x989C;&#x8272;&#x9AD8;&#x4EAE;&#xFF0C;&#x53E6;&#x5916; <strong>C</strong>hina &#x5355;&#x8BCD;&#x4E2D;&#x7684; <strong>i</strong> &#x548C; <strong>#</strong> &#x7B26;&#x53F7;&#x4E5F;&#x8FDB;&#x884C;&#x4E86;&#x7ED3;&#x5408;&#xFF0C;&#x5C31;&#x6709;&#x4E86; <strong>C#</strong> &#x7684;&#x65E2;&#x89C6;&#x611F;&#x3002;&#x610F;&#x4E3A;&#xFF1A;<strong>I love .NET/C#&#x3002;</strong></p>
+<ul>
+<li>
+<p>&#x2B50;&#xFE0F; <strong>&#x6A2A;&#x7248;&#x6807;&#x5FD7;</strong>&#xFF1A;<img src="https://images.gitee.com/uploads/images/2021/0225/132645_21007ea0_974299.png" height="30"></p>
+</li>
+<li>
+<p>&#x2B50;&#xFE0F; <strong>&#x7AD6;&#x7248;&#x6807;&#x5FD7;</strong>&#xFF1A;<img src="https://images.gitee.com/uploads/images/2021/0309/134044_9c191d7b_974299.png" height="40"></p>
+</li>
+</ul>
+<h2 class="mume-header" id="%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE">&#x7CBE;&#x9009;&#x9879;&#x76EE;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x7EC4;&#x7EC7;&#x4E13;&#x95E8;&#x8BBE;&#x7ACB;&#x4E86;&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x5B75;&#x5316;&#x57FA;&#x91D1;&#xFF0C;&#x51E1;&#x662F;&#x88AB; dotNET China &#x793E;&#x533A;&#x7EC4;&#x7EC7;<strong>&#x8BC4;&#x59D4;&#x4F1A;</strong>&#x5BA1;&#x6838;&#x5E76;&#x8BA4;&#x5B9A;&#x7684;&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x5747;&#x53EF;&#x5F97;&#x5230;&#x5956;&#x52B1;&#x548C;&#x63A8;&#x5E7F;&#x3002;&#x76EE;&#x524D;&#x5DF2;&#x52A0;&#x5165; dotNET China &#x793E;&#x533A;&#x7EC4;&#x7EC7;&#x7684;&#x9879;&#x76EE;&#x5305;&#x62EC;&#xFF1A;</p>
+<p style="margin:20px 0;">
+  <img src="https://images.gitee.com/uploads/images/2021/0312/190544_53ac3622_974299.png" style="width:100%;">
+</p>
+<h3 class="mume-header" id="gvp-%E9%A1%B9%E7%9B%AE">GVP &#x9879;&#x76EE;</h3>
+
+<p>&#x4EE5;&#x4E0B;&#x6392;&#x540D;&#x6309;&#x52A0;&#x5165; dotNET China &#x793E;&#x533A;&#x65F6;&#x95F4;&#x6392;&#x5E8F;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x9879;&#x76EE;&#x540D;&#x79F0;</th>
+<th>&#x5173;&#x6CE8;&#x91CF;</th>
+<th>&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</th>
+<th>&#x52A0;&#x5165;&#x65E5;&#x671F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://gitee.com/Hgui/FastTunnel"><img src="https://img.shields.io/badge/FastTunnel-FastTunnel-blue" alt="FastTunnel"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/Hgui/FastTunnel/stargazers"><img src="https://gitee.com/Hgui/FastTunnel/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x5185;&#x7F51;&#x7A7F;&#x900F;&#xFF0C;&#x8FDC;&#x7A0B;&#x5185;&#x7F51;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x57DF;&#x540D;&#x8BBF;&#x95EE;&#x5185;&#x7F51;&#x7AD9;&#x70B9;&#xFF0C;&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x5185;&#x7F51;&#x670D;&#x52A1;&#xFF0C;http &#x4EE3;&#x7406;&#xFF0C;&#x7C7B;&#x82B1;&#x751F;&#x58F3;&#xFF0C;&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;&#xFF0C;&#x5FAE;&#x4FE1;&#xFF0C;&#x5C0F;&#x7A0B;&#x5E8F;&#x7B49;&#x7B49;&#x3002;</td>
+<td>2021.06.15&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/handyorg/HandyControl"><img src="https://img.shields.io/badge/HandyOrg-HandyControl-blue" alt="HandyControl"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/handyorg/HandyControl/stargazers"><img src="https://gitee.com/handyorg/HandyControl/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>HandyControl &#x662F;&#x4E00;&#x5957; WPF &#x63A7;&#x4EF6;&#x5E93;&#xFF0C;&#x5B83;&#x51E0;&#x4E4E;&#x91CD;&#x5199;&#x4E86;&#x6240;&#x6709;&#x539F;&#x751F;&#x6837;&#x5F0F;&#xFF0C;&#x540C;&#x65F6;&#x5305;&#x542B; 80 &#x4F59;&#x6B3E;&#x81EA;&#x5B9A;&#x4E49;&#x63A7;&#x4EF6;&#x3002;</td>
+<td>2021.05.21&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/yhuse/SunnyUI"><img src="https://img.shields.io/badge/Sunny-SunnyUI-blue" alt="SunnyUI"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/yhuse/SunnyUI/stargazers"><img src="https://gitee.com/yhuse/SunnyUI/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="http://SunnyUI.Net">SunnyUI.Net</a> <a href="http://xn--6kq92uzzl.Net">&#x662F;&#x57FA;&#x4E8E;.Net</a> Framework 4.0+&#x3001;.Net Core3.1&#x3001;.Net 5 &#x6846;&#x67B6;&#x7684; C# WinForm &#x5F00;&#x6E90;&#x63A7;&#x4EF6;&#x5E93;&#x3001;&#x5DE5;&#x5177;&#x7C7B;&#x5E93;&#x3001;&#x6269;&#x5C55;&#x7C7B;&#x5E93;&#x3001;&#x591A;&#x9875;&#x9762;&#x5F00;&#x53D1;&#x6846;&#x67B6;&#x3002;</td>
+<td>2021.03.24&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/RRQMSocket"><img src="https://img.shields.io/badge/%E8%8B%A5%E6%B1%9D%E6%A3%8B%E8%8C%97-RRQMSocket-blue" alt="RRQMSocket"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/RRQMSocket/stargazers"><img src="https://gitee.com/dotnetchina/RRQMSocket/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x3010;RRQMSocket 5.0&#x3011;&#x662F;&#x4E00;&#x4E2A;&#x8F7B;&#x91CF;&#x7EA7;&#x7F51;&#x7EDC;&#x901A;&#x4FE1;&#x6846;&#x67B6;&#xFF0C;&#x5176;&#x7279;&#x70B9;&#x662F;&#x591A;&#x517C;&#x5BB9;&#x3001;&#x5E7F;&#x9002;&#x914D;&#x3001;&#x9AD8;&#x5E76;&#x53D1;&#x3002;&#x5176;&#x4E2D;&#x4E3B;&#x8981;&#x5185;&#x5BB9;&#x5305;&#x62EC;:TCP&#x3001;UDP &#x670D;&#x52A1;&#x901A;&#x4FE1;&#x6846;&#x67B6;&#x3001;&#x5927;&#x6587;&#x4EF6;&#x4F20;&#x8F93;&#x3001;RPC&#x3001;WebApi&#x3001;XmlRpc&#x3001;JsonRpc &#x7B49;&#x5185;&#x5BB9;</td>
+<td>2021.03.22&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/IoTSharp"><img src="https://img.shields.io/badge/%E9%BA%A6%E5%A3%B3%E9%A5%BC-IoTSharp-blue" alt="IoTSharp"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/IoTSharp/stargazers"><img src="https://gitee.com/dotnetchina/IoTSharp/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>IoTSharp &#x662F;&#x4E00;&#x4E2A; <a href="http://xn--6kq92u.Net">&#x57FA;&#x4E8E;.Net</a> Core &#x5F00;&#x6E90;&#x7684;&#x7269;&#x8054;&#x7F51;&#x57FA;&#x7840;&#x5E73;&#x53F0;&#xFF0C; &#x652F;&#x6301; HTTP&#x3001;MQTT &#x3001;CoAp &#x534F;&#x8BAE;&#x3002;</td>
+<td>2021.03.19&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/weaving-socket"><img src="https://img.shields.io/badge/dreamsfly-weaving--socket-blue" alt="weaving-socket"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/weaving-socket/stargazers"><img src="https://gitee.com/dotnetchina/weaving-socket/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x652F;&#x6301; U3D&#xFF0C;&#x7269;&#x8054;&#x7F51;&#xFF0C;web&#xFF0C;&#x901A;&#x7528;&#x7F51;&#x5173; socket &#x901A;&#x8BAF;&#x3002;</td>
+<td>2021.03.11&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/opencc/ccflow"><img src="https://img.shields.io/badge/%E9%A9%B0%E9%AA%8BBPM-CCFlow-blue" alt="CCFlow"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/opencc/ccflow/stargazers"><img src="https://gitee.com/opencc/ccflow/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x9A70;&#x9A8B; BPM &#x7CFB;&#x7EDF;&#x5305;&#x542B;&#x8868;&#x5355;&#x5F15;&#x64CE;+&#x6D41;&#x7A0B;&#x5F15;&#x64CE;+&#x6743;&#x9650;&#x63A7;&#x5236;,&#x65B9;&#x4FBF;&#x96C6;&#x6210;,&#x914D;&#x7F6E;&#x7075;&#x6D3B;,&#x529F;&#x80FD;&#x5F3A;&#x5927;&#x3002;</td>
+<td>2021.03.11&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/SqlSugar"><img src="https://img.shields.io/badge/sunkaixuan-SqlSugar-blue" alt="SqlSugar"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/SqlSugar/stargazers"><img src="https://gitee.com/dotnetchina/SqlSugar/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x56FD;&#x5185;&#x6700;&#x53D7;&#x6B22;&#x8FCE;&#x7684; ORM &#x6846;&#x67B6;&#xFF0C;&#x652F;&#x6301; MySql&#x3001;SqlServer&#x3001;Sqlite&#x3001;Oracle &#x3001; postgresql &#x7B49;&#x6570;&#x636E;&#x5E93;&#x3002;</td>
+<td>2021.03.10&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/OpenAuth.Net"><img src="https://img.shields.io/badge/%E6%9D%8E%E7%8E%89%E5%AE%9D-OpenAuth.Net-blue" alt="OpenAuth.Net"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/OpenAuth.Net/stargazers"><img src="https://gitee.com/dotnetchina/OpenAuth.Net/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>.Net &#x5FEB;&#x901F;&#x5E94;&#x7528;&#x5F00;&#x53D1;&#x6846;&#x67B6;&#x3001;&#x6700;&#x597D;&#x7528;&#x7684;&#x6743;&#x9650;&#x5DE5;&#x4F5C;&#x6D41;&#x7CFB;&#x7EDF;&#x3002;</td>
+<td>2021.03.10&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/SliderCaptcha"><img src="https://img.shields.io/badge/Argo-SliderCaptcha-blue" alt="SliderCaptcha"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/SliderCaptcha/stargazers"><img src="https://gitee.com/dotnetchina/SliderCaptcha/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x6ED1;&#x5757;&#x9A8C;&#x8BC1;&#x7801;&#xFF0C;&#x7528;&#x6237;&#x901A;&#x8FC7;&#x62D6;&#x52A8;&#x6ED1;&#x5757;&#x5B8C;&#x6210;&#x6821;&#x9A8C;&#xFF0C;&#x652F;&#x6301; PC &#x7AEF;&#x53CA;&#x79FB;&#x52A8;&#x7AEF;</td>
+<td>2021.03.10&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/BootstrapAdmin"><img src="https://img.shields.io/badge/Argo-BootstrapAdmin-blue" alt="BootstrapAdmin"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/BootstrapAdmin/stargazers"><img src="https://gitee.com/dotnetchina/BootstrapAdmin/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x57FA;&#x4E8E; RBAC &#x7684; NetCore &#x540E;&#x53F0;&#x7BA1;&#x7406;&#x6846;&#x67B6;&#xFF0C;&#x6743;&#x9650;&#x7BA1;&#x7406;&#xFF0C;&#x524D;&#x540E;&#x53F0;&#x5206;&#x79BB;&#xFF0C;&#x652F;&#x6301;&#x591A;&#x7AD9;&#x70B9;&#x5355;&#x70B9;&#x767B;&#x5F55;&#x3002;</td>
+<td>2021.03.10&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/Furion"><img src="https://img.shields.io/badge/%E7%99%BE%E5%B0%8F%E5%83%A7-Furion-blue" alt="Furion"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/Furion/stargazers"><img src="https://gitee.com/dotnetchina/Furion/badge/star.svg?theme=gvp" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x4E00;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x6846;&#x67B6;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x5C06;&#x5B83;&#x96C6;&#x6210;&#x5230;&#x4EFB;&#x4F55; .NET/C# &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E2D;&#x3002;</td>
+<td>2021.03.01&#xA0;&#xA0;</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="%E4%BC%98%E8%B4%A8%E9%A1%B9%E7%9B%AE">&#x4F18;&#x8D28;&#x9879;&#x76EE;</h3>
+
+<p>&#x4EE5;&#x4E0B;&#x6392;&#x540D;&#x6309;&#x52A0;&#x5165; dotNET China &#x793E;&#x533A;&#x65F6;&#x95F4;&#x6392;&#x5E8F;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x9879;&#x76EE;&#x540D;&#x79F0;</th>
+<th>&#x5173;&#x6CE8;&#x91CF;</th>
+<th>&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</th>
+<th>&#x52A0;&#x5165;&#x65E5;&#x671F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://gitee.com/NAlps/BIMFace.SDK"><img src="https://img.shields.io/badge/SavionZhang-BIMFace.SDK-blue" alt="BIMFace.SDK"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/NAlps/BIMFace.SDK/stargazers"><img src="https://gitee.com/NAlps/BIMFace.SDK/badge/star.svg?theme=dark" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="http://xn--6kq92ucngft7c.NET">&#x57FA;&#x4E8E;&#x5FAE;&#x8F6F;.NET</a> &#x6280;&#x672F;&#x5C01;&#x88C5;&#x7684;&#x7528;&#x4E8E; <a href="https://bimface.com/">BIMFACE</a> &#x4E8C;&#x6B21;&#x5F00;&#x53D1;&#x7684;&#x901A;&#x7528;&#x7C7B;&#x5E93;&#x3002;&#x5176;&#x4E2D;&#x5C01;&#x88C5;&#x4E86; BIMFace &#x670D;&#x52A1;&#x7AEF; API&#x3002;</td>
+<td>2021.06.25&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/CoreUnion/CoreShop"><img src="https://img.shields.io/badge/%E5%A4%A7%E7%81%B0%E7%81%B0-CoreShop-blue" alt="CoreShop"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/CoreUnion/CoreShop/stargazers"><img src="https://gitee.com/CoreUnion/CoreShop/badge/star.svg?theme=dark" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x57FA;&#x4E8E; <a href="http://Asp.Net">Asp.Net</a> Core 5.0&#x3001;Uni-App &#x5F00;&#x53D1;&#xFF0C;&#x652F;&#x6301;&#x53EF;&#x89C6;&#x5316;&#x5E03;&#x5C40;&#x7684;&#x5C0F;&#x7A0B;&#x5E8F;&#x5546;&#x57CE;&#x7CFB;&#x7EDF;&#xFF0C;&#x524D;&#x540E;&#x7AEF;&#x5206;&#x79BB;&#xFF0C;&#x62E5;&#x6709;&#x5206;&#x9500;&#x3001;&#x4EE3;&#x7406;&#x3001;&#x56E2;&#x8D2D;&#x3001;&#x62FC;&#x56E2;&#x3001;&#x79D2;&#x6740;&#x3001;&#x76F4;&#x64AD;&#x3001;&#x4F18;&#x60E0;&#x5238;&#x3001;&#x81EA;&#x5B9A;&#x4E49;&#x8868;&#x5355;&#x7B49;&#x4F17;&#x591A;&#x8425;&#x9500;&#x529F;&#x80FD;&#x3002;</td>
+<td>2021.06.04&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://img.shields.io/badge/%E6%9A%90%E7%BF%B0-MiniExcel-blue" alt="MiniExcel"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/MiniExcel/stargazers"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg?theme=dark" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>MiniExcel &#x7B80;&#x5355;&#x3001;&#x9AD8;&#x6548;&#x907F;&#x514D; OOM <a href="http://xn--hxy.NET">&#x7684;.NET</a> &#x5904;&#x7406; Excel &#x5DE5;&#x5177;&#x3002;</td>
+<td>2021.04.05&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/kwwwvagaa/net_winform_custom_control"><img src="https://img.shields.io/badge/%E5%86%B0%E5%B0%81%E4%B8%80%E5%A4%8F-HZHControls%E6%8E%A7%E4%BB%B6%E5%BA%93-blue" alt="HZHControls&#x63A7;&#x4EF6;&#x5E93;"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/kwwwvagaa/net_winform_custom_control/stargazers"><img src="https://gitee.com/kwwwvagaa/net_winform_custom_control/badge/star.svg?theme=dark" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>c#&#x7684; winform &#x81EA;&#x5B9A;&#x4E49;&#x63A7;&#x4EF6;&#xFF0C;&#x5BF9;&#x89E6;&#x5C4F;&#x5177;&#x6709;&#x66F4;&#x597D;&#x7684;&#x64CD;&#x4F5C;&#x652F;&#x6301;&#xFF0C;&#x9879;&#x76EE;&#x662F;&#x57FA;&#x4E8E; framework4.0&#xFF0C;&#x5B8C;&#x5168;&#x539F;&#x751F;&#x63A7;&#x4EF6;&#x5F00;&#x53D1;&#xFF0C;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x4EFB;&#x4F55;&#x7B2C;&#x4E09;&#x65B9;&#x63A7;&#x4EF6;&#x3002;</td>
+<td>2021.03.24&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/DBCHM"><img src="https://img.shields.io/badge/%E7%A9%BA%E6%97%A0%E4%B8%80%E7%89%A9-DBCHM-blue" alt="DBCHM"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/DBCHM/stargazers"><img src="https://gitee.com/dotnetchina/DBCHM/badge/star.svg?theme=dark" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>&#x6700;&#x7B80;&#x5355;&#xFF0C;&#x6700;&#x5B9E;&#x7528;&#x7684;&#x6570;&#x636E;&#x5E93;&#x6587;&#x6863;&#x751F;&#x6210;&#x5DE5;&#x5177;&#xFF0C;&#x652F;&#x6301; SqlServer/MySQL/Oracle/PostgreSQL/DB2/SQLite &#x6570;&#x636E;&#x5E93;&#x3002;</td>
+<td>2021.03.15&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/SiMayRemoteMonitorOS"><img src="https://img.shields.io/badge/koko-SiMayRemoteMonitorOS-blue" alt="SiMayRemoteMonitorOS"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/SiMayRemoteMonitorOS/stargazers"><img src="https://gitee.com/dotnetchina/SiMayRemoteMonitorOS/badge/star.svg?theme=dark" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>Windows &#x8FDC;&#x7A0B;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF0C;&#x5B9E;&#x73B0;&#x4E86;&#x57FA;&#x4E8E;&#x9010;&#x884C;&#x626B;&#x63CF;&#x7B97;&#x6CD5;&#x8FDC;&#x7A0B;&#x684C;&#x9762;&#xFF0C;&#x684C;&#x9762;&#x89C6;&#x56FE;&#x5899;&#xFF0C;&#x6587;&#x4EF6;&#x7BA1;&#x7406;&#xFF0C;&#x5B9E;&#x65F6;&#x8BED;&#x97F3;&#x3001;&#x89C6;&#x9891;&#x76D1;&#x63A7;&#xFF0C;&#x6CE8;&#x518C;&#x8868;&#x7BA1;&#x7406;&#xFF0C;&#x5B9E;&#x65F6;&#x8FDB;&#x7A0B;&#x7BA1;&#x7406;&#x7B49;&#x529F;&#x80FD;&#x3002;</td>
+<td>2021.03.12&#xA0;&#xA0;</td>
+</tr>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/anno.core"><img src="https://img.shields.io/badge/%E6%9D%9C%E7%87%95%E6%98%8E-Anno.Core-blue" alt="Anno.Core"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td><a href="https://gitee.com/dotnetchina/anno.core/stargazers"><img src="https://gitee.com/dotnetchina/anno.core/badge/star.svg?theme=dark" alt="star"></a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td>
+<td>Anno &#x662F;&#x4E00;&#x4E2A;&#x5FAE;&#x670D;&#x52A1;&#x5FEB;&#x901F;&#x5F00;&#x53D1;&#x6846;&#x67B6;&#xFF0C;&#x5E95;&#x5C42;&#x901A;&#x8BAF;&#x53EF;&#x4EE5;&#x968F;&#x610F;&#x5207;&#x6362; grpc&#x3001;thrift&#x3002;</td>
+<td>2021.03.10&#xA0;&#xA0;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x7531;&#x4E8E; Gitee &#x4EE3;&#x7801;&#x6258;&#x7BA1;&#x5E73;&#x53F0;&#x53EA;&#x63D0;&#x4F9B; 6 &#x4E2A;&#x7CBE;&#x9009;&#x9879;&#x76EE;&#x7684;&#x4F4D;&#x7F6E;</strong>&#xFF0C;&#x6240;&#x4EE5;&#x540E;&#x671F;&#x901A;&#x8FC7; dotNET China &#x793E;&#x533A;&#x8BC4;&#x59D4;&#x4F1A;&#x5BA1;&#x6838;&#x901A;&#x8FC7;&#x7684;&#x65B0;&#x9879;&#x76EE;&#x90FD;&#x5C06;&#x6709; 15 &#x5929;&#x671F;&#x9650;&#x653E;&#x7F6E;&#x7CBE;&#x9009;&#x9879;&#x76EE;&#x4E00;&#x680F;&#x3002;15 &#x5929;&#x671F;&#x9650;&#x8FC7;&#x540E;&#xFF0C;dotNET China &#x793E;&#x533A;&#x8BC4;&#x59D4;&#x4F1A;&#x91CD;&#x65B0;&#x8BC4;&#x4F30;&#x6240;&#x6709;&#x9879;&#x76EE;&#x5E76;&#x9009;&#x51FA; 6 &#x4E2A;&#x7CBE;&#x9009;&#x9879;&#x76EE;&#x653E;&#x7F6E;&#x9996;&#x9875;&#x3002;</p>
+<p>dotNET China &#x793E;&#x533A;&#x8877;&#x5FC3;&#x5E0C;&#x671B;&#x9879;&#x76EE;&#x4F5C;&#x8005;&#x80FD;&#x591F;&#x6301;&#x7EED;&#x7EF4;&#x62A4;&#x5E76;&#x6D3B;&#x8DC3;&#x4E8E;&#x9879;&#x76EE;&#x4E2D;&#xFF0C;&#x8FD9;&#x6837;&#x80FD;&#x591F;&#x7ED9;&#x4F7F;&#x7528;&#x8005;&#x6700;&#x5927;&#x7684;&#x4FDD;&#x8BC1;&#x3002;</p>
+<p><strong><a href="https://gitee.com/organizations/dotnetchina/projects">&#x1F536; &#x70B9;&#x51FB;&#x67E5;&#x770B;&#x5168;&#x90E8;&#x9879;&#x76EE;</a></strong></p>
+<h2 class="mume-header" id="%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE">&#x2728; &#x6BCF;&#x671F;&#x7CBE;&#x9009;&#x9879;&#x76EE; &#x2728;</h2>
+
+<p>&#x6BCF;&#x671F;&#x7CBE;&#x9009;&#x9879;&#x76EE;&#x662F; dotNET China &#x7279;&#x522B;&#x63A8;&#x51FA;&#x7684;&#x680F;&#x76EE;&#xFF0C;&#x6536;&#x96C6;&#x56FD;&#x5185;&#x4F18;&#x79C0;&#x7684; C#/.NET &#x5F00;&#x6E90;&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x63A8;&#x5E7F;&#x548C;&#x5BA3;&#x4F20;&#x3002;</p>
+<h3 class="mume-header" id="%E7%AC%AC-12-%E6%9C%9F">&#x7B2C; 12 &#x671F;</h3>
+
+<p><strong>FastTunnel</strong></p>
+<p>&#x5185;&#x7F51;&#x7A7F;&#x900F;&#xFF0C;&#x8FDC;&#x7A0B;&#x5185;&#x7F51;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x57DF;&#x540D;&#x8BBF;&#x95EE;&#x5185;&#x7F51;&#x7AD9;&#x70B9;&#xFF0C;&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x5185;&#x7F51;&#x670D;&#x52A1;&#xFF0C;http &#x4EE3;&#x7406;&#xFF0C;&#x7C7B;&#x82B1;&#x751F;&#x58F3;&#xFF0C;&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;&#xFF0C;&#x5FAE;&#x4FE1;&#xFF0C;&#x5C0F;&#x7A0B;&#x5E8F;&#x7B49;&#x7B49;&#x3002;</p>
+<p><a href="https://gitee.com/Hgui/FastTunnel">https://gitee.com/Hgui/FastTunnel</a></p>
+<p style="margin:20px 0;">
+  <a href="https://gitee.com/Hgui/FastTunnel" target="_blank">
+  <img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/FastTunnel.png" style="width:100%;">
+  </a><a href>
+</a></p><a href>
+<table>
+<thead>
+<tr>
+<th>&#x7B2C; 1 &#x671F;</th>
+<th>&#x7B2C; 2 &#x671F;</th>
+<th>&#x7B2C; 3 &#x671F;</th>
+<th>&#x7B2C; 4 &#x671F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://gitee.com/zuohuaijun/Admin.NET"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Admin.NET.png" alt></a></td>
+<td><a href="https://gitee.com/LongbowEnterprise/BootstrapBlazor"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/BootstrapBlazor.png" alt></a></td>
+<td><a href="https://gitee.com/dotnetchina/OpenAuth.Net"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/OpenAuth.NET.png" alt></a></td>
+<td><a href="https://gitee.com/dotnetchina/SqlSugar"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/SqlSugar.png" alt></a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>&#x7B2C; 5 &#x671F;</th>
+<th>&#x7B2C; 6 &#x671F;</th>
+<th>&#x7B2C; 7 &#x671F;</th>
+<th>&#x7B2C; 8 &#x671F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://gitee.com/dotnetchina/anno.core"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Anno.Core.png" alt></a></td>
+<td><a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/MiniExcel.png" alt></a></td>
+<td><a href="https://gitee.com/yhuse/SunnyUI"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/SunnyUI.png" alt></a></td>
+<td><a href="https://gitee.com/dotnetchina/IoTSharp"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/IoTSharp.png" alt></a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>&#x7B2C; 9 &#x671F;</th>
+<th>&#x7B2C; 10 &#x671F;</th>
+<th>&#x7B2C; 11 &#x671F;</th>
+<th>&#x7B2C; 12 &#x671F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://gitee.com/opencc/ccflow"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/CCFlow.png" alt></a></td>
+<td><a href="https://gitee.com/handyorg/HandyControl"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/HandyControl.png" alt></a></td>
+<td><a href="https://gitee.com/CoreUnion/CoreShop"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/CoreShop.png" alt></a></td>
+<td><a href="https://gitee.com/Hgui/FastTunnel"><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/FastTunnel.png" alt></a></td>
+</tr>
+</tbody>
+</table>
+</a><p><a href><strong></strong></a><strong><a href="https://gitee.com/dotnetchina/dotnetchina/tree/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE">&#x1F536; &#x70B9;&#x51FB;&#x67E5;&#x770B;&#x66F4;&#x591A;&#x6BCF;&#x671F;&#x7CBE;&#x9009;</a></strong></p>
+<h2 class="mume-header" id="%E9%A1%B9%E7%9B%AE%E5%8A%A0%E5%85%A5">&#x9879;&#x76EE;&#x52A0;&#x5165;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x7EC4;&#x7EC7;&#x5BF9;&#x52A0;&#x5165;&#x9879;&#x76EE;&#x6709;&#x4EE5;&#x4E0B;&#x6700;&#x57FA;&#x672C;&#x6761;&#x4EF6;&#x8981;&#x6C42;&#xFF1A;</p>
+<ul>
+<li><strong>&#x63D0;&#x4EA4;&#x9879;&#x76EE;&#x52A0;&#x5165;&#x7533;&#x8BF7;<a href="https://gitee.com/dotnetchina/Home/issues/new">&#x3010;&#x6DFB;&#x52A0;&#x7533;&#x8BF7;&#x3011;</a></strong></li>
+<li><strong>&#x9879;&#x76EE;&#x5FC5;&#x987B;&#x662F;&#x539F;&#x521B;&#x4E14;&#x4E0D;&#x80FD;&#x662F; Fork &#x7248;&#x672C;&#x3002;</strong></li>
+<li>&#x9879;&#x76EE;&#x5FC5;&#x987B;&#x662F;&#x5B8C;&#x6574;&#x7684;&#x5E94;&#x7528;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;</li>
+<li>&#x9879;&#x76EE;&#x5FC5;&#x987B;&#x6709;&#x826F;&#x597D;&#x7684;&#x4EE3;&#x7801;&#x6CE8;&#x91CA;&#x548C;&#x4E0D;&#x65AD;&#x5B8C;&#x5584;&#x7684;&#x4F7F;&#x7528;&#x6587;&#x6863;&#x3002;</li>
+<li>&#x9879;&#x76EE;&#x5FC5;&#x987B;&#x5728; Gitee &#x5E73;&#x53F0;&#x6258;&#x7BA1;&#x4E14; Stars &#x5173;&#x6CE8;&#x91CF;&#x5927;&#x4E8E; 100&#x3002;</li>
+<li>&#x9879;&#x76EE;&#x81F3;&#x5C11;&#x5728;&#x8FD1; 2 &#x4E2A;&#x6708;&#x5185;&#x6709;&#x5B9E;&#x9645;&#x6709;&#x6548;&#x7684;&#x4EE3;&#x7801;&#x63D0;&#x4EA4;&#x8BB0;&#x5F55;&#x3002;</li>
+<li>&#x9879;&#x76EE;&#x9664;&#x975E;&#x7279;&#x522B;&#x4F18;&#x79C0;&#xFF0C;&#x5426;&#x5219;&#x4E0D;&#x63A5;&#x53D7;&#x548C; dotNET China &#x793E;&#x533A;&#x7EC4;&#x7EC7;&#x51FA;&#x73B0;&#x540C;&#x8D28;&#x5316;&#x7684;&#x9879;&#x76EE;&#x3002;</li>
+<li><strong>&#x9879;&#x76EE;&#x4ECB;&#x7ECD;&#x6587;&#x6848;&#x4E0D;&#x80FD;&#x5305;&#x542B;&#x6709;&#x635F;&#x56FD;&#x5BB6;&#x3001;&#x4EBA;&#x6C11;&#x8BCD;&#x6C47;&#x4EE5;&#x53CA;&#x5E26;&#x6709;&#x6B67;&#x4E49;/&#x8D2C;&#x4E49;&#x8BCD;&#x8BCD;&#x6C47;</strong>&#x3002;</li>
+<li><strong>&#x9879;&#x76EE;&#x9879;&#x76EE;&#x9700;&#x8BA4;&#x540C;&#x7EC4;&#x7EC7;&#x53D1;&#x5C55;&#x7406;&#x5FF5;&#x548C;&#x9075;&#x5B88;&#x6700;&#x57FA;&#x672C;&#x7684;&#x884C;&#x4E3A;&#x51C6;&#x5219;</strong>&#x3002;</li>
+<li><strong>&#x9879;&#x76EE;&#x5FC5;&#x987B;&#x5F97;&#x5230; dotNET China &#x793E;&#x533A;&#x7EC4;&#x7EC7;&#x8BC4;&#x59D4;&#x4F1A;&#x7684;&#x8BA4;&#x53EF;&#x3002;</strong></li>
+<li>&#x4F18;&#x5148;&#x8003;&#x8651; Gitee &#x63A8;&#x8350;&#x9879;&#x76EE;&#x6216;&#x5DF2;&#x83B7;&#x5F97; GVP &#x7684;&#x9879;&#x76EE;&#x3002;&#xFF08;GVP &#x9879;&#x76EE;&#x9700;&#x8054;&#x7CFB; Gitee &#x5B98;&#x65B9;&#x4EBA;&#x5458;&#x53D6;&#x6D88; GVP &#x540E;&#x624D;&#x80FD;&#x8F6C;&#x79FB;&#x5230;&#x7EC4;&#x7EC7;&#xFF0C;&#x8F6C;&#x79FB;&#x6210;&#x529F;&#x540E;&#x6062;&#x590D; GVP&#xFF09;</li>
+<li>&#x4F18;&#x9009;&#x8003;&#x8651;&#x5BB9;&#x5668;&#x5DE5;&#x5177;&#x3001;&#x5FAE;&#x670D;&#x52A1;&#x5E94;&#x7528;&#x3001;&#x5927;&#x6570;&#x636E;&#x5904;&#x7406;&#x3001;&#x5206;&#x5E03;&#x5F0F;&#x4E8B;&#x52A1;&#x3001;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x3001;IoT &#x7269;&#x8054;&#x7F51;&#x7B49;&#x9886;&#x57DF;&#x9879;&#x76EE;&#x3002;</li>
+</ul>
+<p><strong>&#x7531;&#x4E8E;&#x7279;&#x6B8A;&#x9879;&#x76EE;&#x5386;&#x53F2;&#x539F;&#x56E0;&#xFF0C;&#x539F;&#x4ED3;&#x5E93;&#x5B58;&#x5728;&#x8FC7;&#x591A;&#x7684;&#x53CB;&#x94FE;&#xFF0C;&#x5982;&#x679C;&#x8F6C;&#x79FB;&#x5230;&#x7EC4;&#x7EC7;&#x4E0B;&#x52BF;&#x5FC5;&#x4F1A;&#x9020;&#x6210;&#x5927;&#x9762;&#x79EF;&#x6B7B;&#x94FE;&#x60C5;&#x51B5;&#xFF0C;&#x6240;&#x4EE5; dotNET China &#x4E5F;&#x63D0;&#x4F9B;&#x91C7;&#x7528;&#x4E0D;&#x8F6C;&#x79FB;&#x9879;&#x76EE;&#x65B9;&#x5F0F;&#xFF0C;&#x53EA;&#x9700;&#x5728;&#x6E90;&#x9879;&#x76EE;&#x9876;&#x90E8;&#x6DFB;&#x52A0;&#x4EE5;&#x4E0B;&#x58F0;&#x660E;&#x5373;&#x53EF;&#xFF1A;</strong></p>
+<pre data-role="codeBlock" data-info class="language-"><code>## &#x7279;&#x522B;&#x58F0;&#x660E;
+
+XXX &#x9879;&#x76EE;&#x5DF2;&#x52A0;&#x5165; [dotNET China](https://gitee.com/dotnetchina)  &#x7EC4;&#x7EC7;&#x3002;&lt;br/&gt;
+
+![dotnetchina](https://images.gitee.com/uploads/images/2021/0324/120117_2da9922c_416720.png &quot;132645_21007ea0_974299.png&quot;)
+</code></pre><p><strong><a href="https://gitee.com/dotnetchina/dotnetchina/blob/master/%E6%8D%90%E8%B5%A0%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E.md">&#x1F536; &#x70B9;&#x51FB;&#x67E5;&#x770B;&#x66F4;&#x591A;&#x52A0;&#x5165;&#x8BF4;&#x660E;</a></strong></p>
+<h2 class="mume-header" id="%E8%AE%BE%E7%AB%8B-mip-%E4%B8%93%E5%AE%B6">&#x8BBE;&#x7ACB; MIP &#x4E13;&#x5BB6;</h2>
+
+<p>MIP &#x4E13;&#x5BB6;&#x662F; dotNET China &#x793E;&#x533A;&#x8BBE;&#x7ACB;&#x5956;&#x52B1;&#x7ED9;&#x5BF9;&#x793E;&#x533A;&#x548C;&#x5F00;&#x6E90;&#x4E8B;&#x4E1A;&#x6709;&#x5927;&#x8D21;&#x732E;&#x7684;&#x6700;&#x6709;&#x5F71;&#x54CD;&#x529B;&#x4E13;&#x5BB6;&#xFF08;dotNET China <strong>M</strong>ost <strong>I</strong>nfluential <strong>P</strong>rofessional&#xFF09;&#x7684;&#x8BC1;&#x4E66;&#x3002;</p>
+<p><strong>&#x76EE;&#x524D;&#x652F;&#x6301;&#x6280;&#x672F;&#x9886;&#x57DF;&#xFF08;&#x6682;&#x5B9A;&#xFF09;</strong>&#xFF1A;</p>
+<ul>
+<li>.NET/C# &#x6280;&#x672F;&#x9886;&#x57DF;</li>
+<li>Xamarin/MAUI &#x6280;&#x672F;&#x9886;&#x57DF;</li>
+<li>Winform/WPF &#x6280;&#x672F;&#x9886;&#x57DF;</li>
+<li>Blazor &#x6280;&#x672F;&#x9886;&#x57DF;</li>
+</ul>
+<p><strong>MIP &#x4E13;&#x5BB6;&#x540D;&#x5F55;</strong>&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>MIP &#x4E13;&#x5BB6;&#x540D;&#x5F55;</th>
+<th>MIP &#x4E13;&#x5BB6;&#x540D;&#x5F55;</th>
+<th>MIP &#x4E13;&#x5BB6;&#x540D;&#x5F55;</th>
+<th>MIP &#x4E13;&#x5BB6;&#x540D;&#x5F55;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%AF%8C%E5%AF%9F%E5%AE%8F%E7%A3%8A%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%91%A8%E6%9C%8B%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%AD%99%E5%87%AF%E6%97%8B%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%AD%9F%E5%81%A5%20MIP.png" alt></td>
+</tr>
+<tr>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%BC%A0%E5%B9%BF%E5%9D%A1%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%96%87%E5%85%89%E7%A7%91%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%9D%8E%E7%8E%89%E5%AE%9D%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%9D%9C%E7%87%95%E6%98%8E%20MIP.png" alt></td>
+</tr>
+<tr>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%B2%88%E6%B0%B8%E5%8D%8E%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E8%8B%A5%E6%B1%9D%E6%A3%8B%E8%8C%97%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E8%91%9B%E6%9D%B0%20MIP.png" alt></td>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E9%BA%A6%E5%A3%B3%E9%A5%BC%20MIP.png" alt></td>
+</tr>
+<tr>
+<td><img src="https://gitee.com/dotnetchina/dotnetchina/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E9%BB%84%E6%AD%A3%E8%BE%89%20MIP.png" alt></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong><a href="https://gitee.com/dotnetchina/dotnetchina/blob/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%8D%95.md">&#x1F536; &#x70B9;&#x51FB;&#x67E5;&#x770B;&#x5168;&#x90E8; MIP &#x4E13;&#x5BB6;</a></strong></p>
+<h2 class="mume-header" id="%E7%A4%BE%E5%8C%BA%E5%A5%96%E5%93%81">&#x793E;&#x533A;&#x5956;&#x54C1;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x5C06;&#x5B9A;&#x5236;&#x66F4;&#x591A;&#x4E2A;&#x6027;&#x5316;&#x7684;&#x793C;&#x54C1;&#x56DE;&#x9988;&#x7ED9;&#x5BF9; dotNET China &#x793E;&#x533A;&#x6216;&#x5F00;&#x6E90;&#x4E8B;&#x4E1A;&#x6709;&#x8D21;&#x732E;&#x7684;&#x4EBA;&#x3002;&#x76EE;&#x524D;&#x5DF2;&#x6709;&#x793C;&#x54C1;&#x6709;&#xFF1A;</p>
+<ul>
+<li><strong>&#x5B9A;&#x5236;&#x7B7E;&#x5B57;&#x7B14;</strong></li>
+</ul>
+<p><img src="https://images.gitee.com/uploads/images/2021/0310/121943_ecdce480_974299.jpeg" height="250"></p>
+<p>&#x66F4;&#x591A;&#x793C;&#x54C1;&#x4E0D;&#x65AD;&#x52A0;&#x5165;&#x4E2D;...</p>
+<h2 class="mume-header" id="%E5%8A%A0%E5%85%A5%E7%BB%84%E7%BB%87">&#x52A0;&#x5165;&#x7EC4;&#x7EC7;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x6B22;&#x8FCE;&#x6240;&#x6709;&#x559C;&#x6B22;&#x6216;&#x4ECE;&#x4E8B; .NET/C# &#x5F00;&#x53D1;&#x7684;&#x670B;&#x53CB;&#xFF0C;&#x53EF;&#x4EE5;&#x70B9;&#x51FB;&#x7EC4;&#x7EC7;&#x754C;&#x9762; &#x3010;<a href="https://gitee.com/dotnetchina">&#x7533;&#x8BF7;&#x52A0;&#x5165;&#x7EC4;&#x7EC7;</a>&#x3011;&#x94FE;&#x63A5;&#x8FDB;&#x884C;&#x7533;&#x8BF7;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x53D1;&#x9001;&#x7535;&#x5B50;&#x90AE;&#x4EF6;&#x81F3; <a href="mailto:open@chinadot.net">open@chinadot.net</a> &#x8054;&#x7CFB;&#x6211;&#x4EEC;&#x3002;</p>
+<h2 class="mume-header" id="%E7%BB%84%E7%BB%87%E8%B4%A3%E4%BB%BB">&#x7EC4;&#x7EC7;&#x8D23;&#x4EFB;</h2>
+
+<ul>
+<li>&#x7EC4;&#x7EC7;&#x4E0D;&#x5F97;&#x4ECE;&#x4E8B;&#x8FDD;&#x6CD5;&#x6216;&#x635F;&#x4EBA;&#x5229;&#x5DF1;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x4E0D;&#x5F97;&#x4F5C;&#x6076;</li>
+<li>&#x8D1F;&#x8D23;&#x793E;&#x533A;&#x65B0;&#x65E7;&#x52A0;&#x5165;&#x9879;&#x76EE;&#x8BC4;&#x5BA1;&#x5DE5;&#x4F5C;</li>
+<li>&#x8D1F;&#x8D23;&#x65B0;&#x65E7;&#x793E;&#x533A;&#x6210;&#x5458;&#x7BA1;&#x7406;&#x5DE5;&#x4F5C;</li>
+<li>&#x8D1F;&#x8D23;&#x793E;&#x533A;&#x4E0B;&#x6240;&#x6709;&#x5B75;&#x5316;&#x9879;&#x76EE;&#x63A8;&#x5E7F;&#xFF0C;&#x5BA3;&#x4F20;&#x548C;&#x9879;&#x76EE;&#x7248;&#x672C;&#x66F4;&#x65B0;&#x65E5;&#x5FD7;&#x7EF4;&#x62A4;</li>
+<li>&#x8D1F;&#x8D23;&#x7EDF;&#x7B79;&#x548C;&#x6267;&#x884C;&#x793E;&#x533A;&#x7EC4;&#x7EC7;&#x7684;&#x6D3B;&#x52A8;</li>
+</ul>
+<h2 class="mume-header" id="%E8%A1%8C%E4%B8%BA%E5%87%86%E5%88%99">&#x884C;&#x4E3A;&#x51C6;&#x5219;</h2>
+
+<ul>
+<li>
+<p>&#x52A0;&#x5165;&#x9879;&#x76EE;&#x51C6;&#x5219;&#xFF1A;<strong>&#x6240;&#x6709;&#x52A0;&#x5165;&#x7ED9; dotNET China &#x793E;&#x533A;&#x7684;&#x9879;&#x76EE;&#x5747;&#x4FDD;&#x7559;&#x539F;&#x6709;&#x9879;&#x76EE;&#x7684;&#x6240;&#x6709;&#x6743;&#x5229;&#x53CA;&#x5546;&#x4E1A;&#x5316;&#x884C;&#x4E3A;</strong>&#xFF0C;dotNET China &#x793E;&#x533A;&#x9664;&#x534F;&#x52A9;&#x63A8;&#x5E7F;&#x3001;&#x5BA3;&#x4F20;&#x3001;&#x8FD0;&#x8425;&#x53CA;&#x989D;&#x5916;&#x5956;&#x52B1;&#x4EE5;&#x5916;&#x4E0D;&#x505A;&#x4EFB;&#x4F55;&#x5E72;&#x6D89;&#xFF0C;&#x4F46;&#x52A0;&#x5165;&#x9879;&#x76EE;&#x4E0D;&#x5F97;&#x4ECE;&#x4E8B;&#x8FDD;&#x6CD5;&#x884C;&#x4E3A;&#x6216;&#x8BCB;&#x6BC1; dotNET China &#x793E;&#x533A;&#x540D;&#x58F0;&#x3002;</p>
+</li>
+<li>
+<p>&#x793E;&#x533A;&#x6210;&#x5458;&#x51C6;&#x5219;&#xFF1A;&#x8BA4;&#x540C;&#x7EC4;&#x7EC7;&#x53D1;&#x5C55;&#x7406;&#x5FF5;&#x53CA;&#x57FA;&#x672C;&#x884C;&#x4E3A;&#x5C0A;&#x91CD;&#x4E14;&#x4E0D;&#x505A;&#x6076;&#x3002;</p>
+</li>
+</ul>
+<h2 class="mume-header" id="%E8%B5%9E%E5%8A%A9%E6%94%AF%E6%8C%81">&#x8D5E;&#x52A9;/&#x652F;&#x6301;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x80FD;&#x591F;&#x6301;&#x7EED;&#x8FD0;&#x8425;&#x548C;&#x63D0;&#x4F9B;&#x66F4;&#x52A0;&#x4F18;&#x8D28;&#x7684;&#x670D;&#x52A1;&#x79BB;&#x4E0D;&#x5F00;&#x5927;&#x5BB6;&#x7684;&#x652F;&#x6301;&#x3002;&#x5982;&#x679C;&#x60F3;&#x6210;&#x4E3A; dotNET China &#x793E;&#x533A;&#x8D5E;&#x52A9;&#x5546;&#x6216;&#x652F;&#x6301;&#x8005;&#xFF0C;&#x8BF7;&#x8003;&#x8651;&#xFF1A;</p>
+<p><img src="https://images.gitee.com/uploads/images/2021/0310/105109_8c250423_974299.png" height="240"></p>
+<p>dotNET China &#x793E;&#x533A;&#x627F;&#x8BFA;&#x5C06;&#x6536;&#x5230;&#x7684;&#x6240;&#x6709;&#x8D5E;&#x52A9;&#x652F;&#x6301;&#x8D44;&#x91D1;&#x5B8C;&#x5168;&#x516C;&#x5F00;&#x5316;&#xFF0C;&#x4E14;&#x540E;&#x7EED;&#x8D44;&#x91D1;&#x7528;&#x9014;&#x4EC5;&#x9650;&#x4E8E; dotNET China &#x793E;&#x533A;&#x8FD0;&#x8425;&#x652F;&#x51FA;&#x3002;</p>
+<p><strong><a href="https://gitee.com/dotnetchina/dotnetchina/blob/master/%E8%B5%9E%E5%8A%A9%E5%95%86.md">&#x1F536; &#x70B9;&#x51FB;&#x67E5;&#x770B;&#x5168;&#x90E8;&#x8D5E;&#x52A9;&#x5546;</a></strong></p>
+<h2 class="mume-header" id="%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC">&#x8054;&#x7CFB;&#x6211;&#x4EEC;</h2>
+
+<ul>
+<li>&#x52A0;&#x5165;&#x9879;&#x76EE;/&#x52A0;&#x5165;&#x7EC4;&#x7EC7;&#xFF1A;<a href="mailto:open@chinadot.net">open@chinadot.net</a></li>
+<li>MIP &#x4E13;&#x5BB6;&#x7533;&#x8BF7;&#xFF1A;<a href="mailto:mip@chinadot.net">mip@chinadot.net</a></li>
+<li>&#x610F;&#x89C1;&#x53CD;&#x9988;&#xFF1A;<a href="mailto:contact@chinadot.net">contact@chinadot.net</a></li>
+</ul>
+<hr>
+<h2 class="mume-header" id="%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">&#x514D;&#x8D23;&#x58F0;&#x660E;</h2>
+
+<p>dotNET China &#x793E;&#x533A;&#x4E3A;&#x56FD;&#x5185;&#x4F18;&#x79C0;&#x7684; .NET &#x9879;&#x76EE;&#x63D0;&#x4F9B;&#x826F;&#x597D;&#x7684;&#x63A8;&#x5E7F;&#x884C;&#x4E3A;&#xFF0C;&#x8BA9;&#x66F4;&#x591A;&#x7684; .NET &#x5F00;&#x53D1;&#x8005;&#x80FD;&#x591F;&#x96F6;&#x8DDD;&#x79BB;&#x548C;&#x9879;&#x76EE;&#x4F5C;&#x8005;&#x4EA4;&#x6D41;&#x6216;&#x5B66;&#x4E60;&#x4ED6;&#x4EEC;&#x4F18;&#x79C0;&#x7684;&#x9879;&#x76EE;&#x4F5C;&#x54C1;&#x3002;</p>
+<p>&#x4F46;&#x5982;&#x6709;&#x53D1;&#x73B0; dotNET China &#x793E;&#x533A;&#x5B75;&#x5316;&#x9879;&#x76EE;&#x6216;&#x6240;&#x5C5E;&#x4F5C;&#x8005;&#x6709;&#x4ECE;&#x4E8B;&#x8FDD;&#x6CD5;&#x6D3B;&#x52A8;&#x6216;&#x5371;&#x5BB3;&#x4ED6;&#x4EBA;&#x4FE1;&#x606F;&#x5B89;&#x5168;&#x884C;&#x4E3A;&#xFF0C;&#x5219; dotNET China &#x7EC4;&#x7EC7;&#x5C06;&#x7ACB;&#x5373;&#x4E0B;&#x67B6;&#x8BE5;&#x9879;&#x76EE;&#x5E76;&#x6536;&#x96C6;&#x5176;&#x8FDD;&#x6CD5;&#x884C;&#x4E3A;&#x63D0;&#x4F9B;&#x81F3;&#x76F8;&#x5173;&#x6267;&#x6CD5;&#x4EBA;&#x5458;&#x5E76;&#x79EF;&#x6781;&#x914D;&#x5408;&#x8C03;&#x67E5;&#xFF0C;&#x540C;&#x65F6; dotNET China &#x7EC4;&#x7EC7;&#x5C06;&#x8BE5;&#x4F5C;&#x8005;&#x548C;&#x6240;&#x52A0;&#x5165;&#x9879;&#x76EE;&#x5217;&#x5165;&#x5236;&#x88C1;&#x9ED1;&#x540D;&#x5355;&#x5E76;&#x6C38;&#x4E0D;&#x518D;&#x63A5;&#x7EB3;&#x3002;</p>
+<p><strong>&#x514D;&#x8D23;&#x7533;&#x660E;&#xFF1A;dotNET China &#x6240;&#x5B75;&#x5316;&#x9879;&#x76EE;&#x7684;&#x4E00;&#x5207;&#x8FDD;&#x6CD5;&#x884C;&#x4E3A;&#x7686;&#x548C; dotNET China &#x7EC4;&#x7EC7;&#x65E0;&#x5173;&#x3002;</strong></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
