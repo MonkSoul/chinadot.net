@@ -130,18 +130,18 @@ dotNET China 社区衷心希望项目作者能够持续维护并活跃于项目�
 
 每期精选项目是 dotNET China 特别推出的栏目，收集或自荐国内优秀的 C#/.NET 开源项目进行推广和宣传，**更新频率为 13 天一期**。
 
-### 第 19 期 (2021/10/21)
+### 第 20 期 (2021/11/03)
 
-**sharding-core**
+**Jaina**
 
-ShardingCore 易用、简单、高性能、普适性，是一款扩展针对 EF Core 生态下的分表分库的扩展解决方案。
+.NET 事件总线，简化项目、类库、线程、服务等之间的通信，代码更少，质量更好。
 
-[https://gitee.com/dotnetchina/sharding-core](https://gitee.com/dotnetchina/sharding-core)
+[https://gitee.com/dotnetchina/Jaina](https://gitee.com/dotnetchina/Jaina)
 
 <p style="margin:20px 0;">
-  <a href="https://gitee.com/dotnetchina/sharding-core" target="_blank">
+  <a href="https://gitee.com/dotnetchina/Jaina" target="_blank">
   <img
-    src="https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/sharding-core.png"
+    src="https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Jaina.png"
     style="width:100%;"
   />
   <a>
@@ -165,7 +165,7 @@ ShardingCore 易用、简单、高性能、普适性，是一款扩展针对 EF 
 
 | 第 17 期 (2021/09/25)                                                                                                                                                      | 第 18 期 (2021/10/08)                                                                                                                                                                    | 第 19 期 (2021/10/21)                                                                                                                                                             | 第 20 期 (2021/11/03)                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Furion.png)](https://gitee.com/dotnetchina/Furion) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/BootstrapAdmin.png)](https://gitee.com/LongbowEnterprise/BootstrapAdmin) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/sharding-core.png)](https://gitee.com/dotnetchina/sharding-core) | ![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/default.png) |
+| [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Furion.png)](https://gitee.com/dotnetchina/Furion) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/BootstrapAdmin.png)](https://gitee.com/LongbowEnterprise/BootstrapAdmin) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/sharding-core.png)](https://gitee.com/dotnetchina/sharding-core) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Jaina.png)](https://gitee.com/dotnetchina/Jaina) |
 
 | 第 21 期 (2021/11/16)                                                                                                                                                      | 第 22 期 (2021/11/29)                                                                                                                                                                    | 第 23 期 (2021/12/12)                                                                                                                                                             | 第 24 期 (2021/12/25)                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
