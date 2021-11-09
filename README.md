@@ -1,4 +1,4 @@
-## 🎉迎新公告
+<!-- ## 🎉迎新公告
 
 2021年11月02日，[TimeCrontab](https://gitee.com/dotnetchina/TimeCrontab) 加入 dotNET China 组织。
 
@@ -11,7 +11,7 @@
   </a>
 </p>
 
-**[🔶 点击查看更多迎新公告](https://gitee.com/dotnetchina/home/blob/master/%E8%BF%8E%E6%96%B0%E5%85%AC%E5%91%8A.md)**
+**[🔶 点击查看更多迎新公告](https://gitee.com/dotnetchina/home/blob/master/%E8%BF%8E%E6%96%B0%E5%85%AC%E5%91%8A.md)** -->
 
 <!-- ## 🎉程序员节
 
@@ -23,6 +23,17 @@
     style="width:100%;"
   />
 </p> -->
+
+## 🎉.NET6
+
+2021年11月09日，.NET6 发布。
+
+<p style="margin:20px 0;">
+  <img
+    src="https://gitee.com/dotnetchina/home/raw/master/assets/NET6.png"
+    style="width:100%;"
+  />
+</p>
 
 ---
 
