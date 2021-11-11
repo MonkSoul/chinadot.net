@@ -82,6 +82,10 @@ dotNET China 社区标志设计由其名称中两个单词组成，同时将 **N
 
 - ⭐️ **竖版标志**：<img src="https://gitee.com/dotnetchina/home/raw/master/assets/logo-v.png" height="40"/>
 
+<p></p>
+
+- ⭐️ **域名含义**：`china` + `dot.net` = **`chinadot.net`**
+
 ## 精选项目
 
 dotNET China 社区组织专门设立了开源项目大礼包，凡是被 dotNET China 社区组织**评委会**审核并认定的开源项目均可得到奖励和推广。目前已加入 dotNET China 社区组织的项目包括：
