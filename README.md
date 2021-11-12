@@ -22,35 +22,16 @@
     style="width:100%;"
   />
 
-<div style="display:flex;">
-
-<div style="flex:1;margin-right:5px;">
-
-**综合资讯**
-
 |标题 | 日期|
 |---|---|
 | 🔥 [.NET 6 正式发布，迄今为止最快的 .NET](https://www.oschina.net/news/167972/dotnet-6-released) | 2021-11-09 |
+| 🔥 [微软正式发布 Visual Studio 2022](https://www.oschina.net/news/167971/visual-studio-2022-released) | 2021-11-09 |
+| 🔥 [IoTSharp 2.0 发布，基于 .NET Core 的 IoT 平台](https://www.oschina.net/news/168523/iotsharp-2-0-released) | 2021-11-12 |
 | [NuGet 6.0 发布](https://www.oschina.net/news/168540/nuget-6-0-released) | 2021-11-12 |
 | [F# 6 正式发布](https://www.oschina.net/news/168154/fsharp-6-released) | 2021-11-10 |
-| [微软正式发布 Visual Studio 2022](https://www.oschina.net/news/167971/visual-studio-2022-released) | 2021-11-09 |
-
-</div>
-
-<div style="flex:1;margin-left:5px;">
-
-**更新资讯**
-
-|标题 |日期|
-|---|---|
-| 🔥 [IoTSharp 2.0 发布，基于 .NET Core 的 IoT 平台](https://www.oschina.net/news/168523/iotsharp-2-0-released) | 2021-11-12 |
 | [再起情怀！Furion v3.0.0 发布，完成 .NET6 兼容适配](https://www.oschina.net/news/168091/furion-3-0-0-released)| 2021-11-09 |
 | [.NET 平台 Cron 表达式解析库 TimeCrontab v1.0.0 发布](https://www.oschina.net/news/166932/timecront-1-0-0-released)| 2021-11-02 |
-|  [.NET 事件总线 Jaina v1.0.7 发布](https://www.oschina.net/news/166420/jaina-1-0-7-released)| 2021-11-02 |
-
-</div>
-
-</div>
+| [.NET 事件总线 Jaina v1.0.7 发布](https://www.oschina.net/news/166420/jaina-1-0-7-released)| 2021-11-02 |
 
 <!-- ## 🎉程序员节
 
