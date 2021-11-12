@@ -1,17 +1,17 @@
-<!-- ## 🎉迎新公告
+## 🎉迎新公告
 
-2021年11月02日，[TimeCrontab](https://gitee.com/dotnetchina/TimeCrontab) 加入 dotNET China 组织。
+2021年11月12日，[NanUI](https://gitee.com/dotnetchina/NanUI) 加入 dotNET China 组织。
 
 <p style="margin:20px 0;">
-  <a href="https://gitee.com/dotnetchina/TimeCrontab" target="_blank">
+  <a href="https://gitee.com/dotnetchina/NanUI" target="_blank">
   <img
-    src="https://gitee.com/dotnetchina/home/raw/master/assets/TimeCrontab.png"
+    src="https://gitee.com/dotnetchina/home/raw/master/assets/NanUI.png"
     style="width:100%;"
   />
   </a>
 </p>
 
-**[🔶 点击查看更多迎新公告](https://gitee.com/dotnetchina/home/blob/master/%E8%BF%8E%E6%96%B0%E5%85%AC%E5%91%8A.md)** -->
+**[🔶 点击查看更多迎新公告](https://gitee.com/dotnetchina/home/blob/master/%E8%BF%8E%E6%96%B0%E5%85%AC%E5%91%8A.md)**
 
 <!-- ## 🎉程序员节
 
@@ -24,7 +24,7 @@
   />
 </p> -->
 
-## 🎉.NET6
+<!-- ## 🎉.NET6
 
 2021年11月09日，.NET6 发布。
 
@@ -33,7 +33,7 @@
     src="https://gitee.com/dotnetchina/home/raw/master/assets/NET6.png"
     style="width:100%;"
   />
-</p>
+</p> -->
 
 ---
 
@@ -127,6 +127,7 @@ dotNET China 社区组织专门设立了开源项目大礼包，凡是被 dotNET
 
 | 项目名称                                                                                                                                                                                                                                                                                                                                                              | 关注量                                                                                                                                                                                                                                                                                                                                 | 项目介绍                                                                                                                                                    | 加入日期               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [![NanUI](https://img.shields.io/badge/%E6%9E%97%E9%80%89%E8%87%A3-NanUI-blue)](https://gitee.com/dotnetchina/NanUI)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      | [![star](https://gitee.com/dotnetchina/NanUI/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/NanUI/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 | NanUI 是一个开放源代码的 .NET 项目，它适用于希望使用 HTML5/CSS3 等前端技术来构建Windows窗体应用用户界面的 .NET/.NET Core 开发人员。                                                                                                                                     | 2021.11.12&nbsp;&nbsp; |
 | [![TimeCrontab](https://img.shields.io/badge/%E7%99%BE%E5%B0%8F%E5%83%A7-TimeCrontab-blue)](https://gitee.com/dotnetchina/TimeCrontab)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      | [![star](https://gitee.com/dotnetchina/TimeCrontab/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/TimeCrontab/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 | .NET 全能 Cron 表达式解析库，支持 Cron 完整特性。                                                                                                                                     | 2021.11.02&nbsp;&nbsp; |
 | [![Jaina](https://img.shields.io/badge/%E7%99%BE%E5%B0%8F%E5%83%A7-Jaina-blue)](https://gitee.com/dotnetchina/Jaina)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      | [![star](https://gitee.com/dotnetchina/Jaina/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/Jaina/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 | .NET 事件总线，简化项目、类库、线程、服务等之间的通信，代码更少，质量更好。中。                                                                                                                                     | 2021.10.25&nbsp;&nbsp; |
 | [![sharding-core](https://img.shields.io/badge/%E8%96%9B%E5%AE%B6%E6%98%8E-sharding--core-blue)](https://gitee.com/dotnetchina/sharding-core)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                              | [![star](https://gitee.com/dotnetchina/sharding-core/badge/star.svg?theme=dark)](https://gitee.com/dotnetchina/sharding-core/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                       | ShardingCore 易用、简单、高性能、普适性，是一款扩展针对 EF Core 生态下的分表分库的扩展解决方案。                                             | 2021.09.30&nbsp;&nbsp; |
