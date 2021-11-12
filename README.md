@@ -1,4 +1,4 @@
-## 🎉迎新公告
+## 🎉 迎新公告
 
 2021年11月12日，[NanUI](https://gitee.com/dotnetchina/NanUI) 加入 dotNET China 组织。
 
@@ -12,6 +12,15 @@
 </p>
 
 **[🔶 点击查看更多迎新公告](https://gitee.com/dotnetchina/home/blob/master/%E8%BF%8E%E6%96%B0%E5%85%AC%E5%91%8A.md)**
+
+## 🔊 软件更新/月
+
+| 项目 | 标题 | 日期
+|---|---|---|
+|**[IoTSharp](https://gitee.com/dotnetchina/IoTSharp)**| **[IoTSharp 2.0 发布，基于 .NET Core 的 IoT 平台](https://www.oschina.net/news/168523/iotsharp-2-0-released)**| **2021-11-12**|
+| [Furion](https://gitee.com/dotnetchina/Furion)| [再起情怀！Furion v3.0.0 发布，完成 .NET6 兼容适配](https://www.oschina.net/news/168091/furion-3-0-0-released)| 2021-11-09|
+| [TimeCrontab](https://gitee.com/dotnetchina/TimeCrontab)| [.NET 平台 Cron 表达式解析库 TimeCrontab v1.0.0 发布](https://www.oschina.net/news/166932/timecront-1-0-0-released)| 2021-11-02|
+| [Jaina](https://gitee.com/dotnetchina/Jaina)| [.NET 事件总线 Jaina v1.0.7 发布](https://www.oschina.net/news/166420/jaina-1-0-7-released)| 2021-11-02|
 
 <!-- ## 🎉程序员节
 
