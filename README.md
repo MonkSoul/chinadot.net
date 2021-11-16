@@ -1,13 +1,59 @@
-## 🎉迎新公告
+## 🎉 迎新公告
 
-2021年09月30日，[ShardingCore](https://gitee.com/dotnetchina/sharding-core) 加入 dotNET China 组织。
+2021年11月12日，[NanUI](https://gitee.com/dotnetchina/NanUI) 加入 dotNET China 组织。
+
+<p style="margin:20px 0;">
+  <a href="https://gitee.com/dotnetchina/NanUI" target="_blank">
+  <img
+    src="https://gitee.com/dotnetchina/home/raw/master/assets/NanUI.png"
+    style="width:100%;"
+  />
+  </a>
+</p>
+
+**[🔶 点击查看更多迎新公告](https://gitee.com/dotnetchina/home/blob/master/%E8%BF%8E%E6%96%B0%E5%85%AC%E5%91%8A.md)**
+
+-----
+
+## 🔊 最新资讯
+
+<img
+    src="https://gitee.com/dotnetchina/home/raw/master/assets/news.png"
+    style="width:100%;"
+  />
+
+| |标题 | 日期|
+|---|---|---|
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_net6.png) | 🔥 [.NET 6 正式发布，迄今为止最快的 .NET](https://www.oschina.net/news/167972/dotnet-6-released) | 2021-11-09 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_vs2022.png) | 🔥 [微软正式发布 Visual Studio 2022](https://www.oschina.net/news/167971/visual-studio-2022-released) | 2021-11-09 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_iotsharp.png) | 🔥 [IoTSharp 2.0 发布，基于 .NET Core 的 IoT 平台](https://www.oschina.net/news/168523/iotsharp-2-0-released) | 2021-11-12 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_nuget.jpeg) | [NuGet 6.0 发布](https://www.oschina.net/news/168540/nuget-6-0-released) | 2021-11-12 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_fsharp.jpeg) | [F# 6 正式发布](https://www.oschina.net/news/168154/fsharp-6-released) | 2021-11-10 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_furion.png) | [再起情怀！Furion v3.0.0 发布，完成 .NET6 兼容适配](https://www.oschina.net/news/168091/furion-3-0-0-released)| 2021-11-09 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_timecrontab.png) |  [.NET 平台 Cron 表达式解析库 TimeCrontab v1.0.0 发布](https://www.oschina.net/news/166932/timecront-1-0-0-released)| 2021-11-02 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_jaina.jpeg) | [.NET 事件总线 Jaina v1.0.7 发布](https://www.oschina.net/news/166420/jaina-1-0-7-released)| 2021-11-02 |
+
+<!-- ## 🎉程序员节
+
+2021年10月24日，这一天，属于我们的节日。
 
 <p style="margin:20px 0;">
   <img
-    src="https://gitee.com/dotnetchina/home/raw/master/assets/ShardingCore.png"
+    src="https://gitee.com/dotnetchina/home/raw/master/assets/1024.png"
     style="width:100%;"
   />
-</p>
+</p> -->
+
+<!-- ## 🎉.NET6
+
+2021年11月09日，.NET6 发布。
+
+<p style="margin:20px 0;">
+  <img
+    src="https://gitee.com/dotnetchina/home/raw/master/assets/NET6.png"
+    style="width:100%;"
+  />
+</p> -->
 
 ---
 
@@ -56,6 +102,10 @@ dotNET China 社区标志设计由其名称中两个单词组成，同时将 **N
 
 - ⭐️ **竖版标志**：<img src="https://gitee.com/dotnetchina/home/raw/master/assets/logo-v.png" height="40"/>
 
+<p></p>
+
+- ⭐️ **域名含义**：`china` + `dot.net` = **`chinadot.net`**
+
 ## 精选项目
 
 dotNET China 社区组织专门设立了开源项目大礼包，凡是被 dotNET China 社区组织**评委会**审核并认定的开源项目均可得到奖励和推广。目前已加入 dotNET China 社区组织的项目包括：
@@ -82,8 +132,6 @@ dotNET China 社区组织专门设立了开源项目大礼包，凡是被 dotNET
 | [![CCFlow](https://img.shields.io/badge/%E9%A9%B0%E9%AA%8BBPM-CCFlow-blue)](https://gitee.com/opencc/ccflow)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                 | [![star](https://gitee.com/opencc/ccflow/badge/star.svg?theme=gvp)](https://gitee.com/opencc/ccflow/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                           | 驰骋 BPM 系统包含表单引擎+流程引擎+权限控制,方便集成,配置灵活,功能强大。                                                                                            | 2021.03.11&nbsp;&nbsp; |
 | [![SqlSugar](https://img.shields.io/badge/sunkaixuan-SqlSugar-blue)](https://gitee.com/dotnetchina/SqlSugar)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                 | [![star](https://gitee.com/dotnetchina/SqlSugar/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/SqlSugar/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             | 国内最受欢迎的 ORM 框架，支持 MySql、SqlServer、Sqlite、Oracle 、 postgresql 等数据库。                                                                             | 2021.03.10&nbsp;&nbsp; |
 | [![OpenAuth.Net](https://img.shields.io/badge/%E6%9D%8E%E7%8E%89%E5%AE%9D-OpenAuth.Net-blue)](https://gitee.com/dotnetchina/OpenAuth.Net)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | [![star](https://gitee.com/dotnetchina/OpenAuth.Net/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/OpenAuth.Net/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | .Net 快速应用开发框架、最好用的权限工作流系统。                                                                                                                     | 2021.03.10&nbsp;&nbsp; |
-| [![SliderCaptcha](https://img.shields.io/badge/Argo-SliderCaptcha-blue)](https://gitee.com/dotnetchina/SliderCaptcha)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                        | [![star](https://gitee.com/dotnetchina/SliderCaptcha/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/SliderCaptcha/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | 滑块验证码，用户通过拖动滑块完成校验，支持 PC 端及移动端                                                                                                            | 2021.03.10&nbsp;&nbsp; |
-| [![BootstrapAdmin](https://img.shields.io/badge/Argo-BootstrapAdmin-blue)](https://gitee.com/dotnetchina/BootstrapAdmin)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     | [![star](https://gitee.com/dotnetchina/BootstrapAdmin/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/BootstrapAdmin/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 基于 RBAC 的 NetCore 后台管理框架，权限管理，前后台分离，支持多站点单点登录。                                                                                       | 2021.03.10&nbsp;&nbsp; |
 | [![Furion](https://img.shields.io/badge/%E7%99%BE%E5%B0%8F%E5%83%A7-Furion-blue)](https://gitee.com/dotnetchina/Furion)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      | [![star](https://gitee.com/dotnetchina/Furion/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/Furion/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 | 一个应用程序框架，您可以将它集成到任何 .NET/C# 应用程序中。                                                                                                                                     | 2021.03.01&nbsp;&nbsp; |
 
 <p style="margin:20px 0;">
@@ -99,11 +147,13 @@ dotNET China 社区组织专门设立了开源项目大礼包，凡是被 dotNET
 
 | 项目名称                                                                                                                                                                                                                                                                                                                                                              | 关注量                                                                                                                                                                                                                                                                                                                                 | 项目介绍                                                                                                                                                    | 加入日期               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [![NanUI](https://img.shields.io/badge/%E6%9E%97%E9%80%89%E8%87%A3-NanUI-blue)](https://gitee.com/dotnetchina/NanUI)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      | [![star](https://gitee.com/dotnetchina/NanUI/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/NanUI/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 | NanUI 是一个开放源代码的 .NET 项目，它适用于希望使用 HTML5/CSS3 等前端技术来构建Windows窗体应用用户界面的 .NET/.NET Core 开发人员。                                                                                                                                     | 2021.11.12&nbsp;&nbsp; |
+| [![TimeCrontab](https://img.shields.io/badge/%E7%99%BE%E5%B0%8F%E5%83%A7-TimeCrontab-blue)](https://gitee.com/dotnetchina/TimeCrontab)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      | [![star](https://gitee.com/dotnetchina/TimeCrontab/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/TimeCrontab/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 | .NET 全能 Cron 表达式解析库，支持 Cron 完整特性。                                                                                                                                     | 2021.11.02&nbsp;&nbsp; |
+| [![Jaina](https://img.shields.io/badge/%E7%99%BE%E5%B0%8F%E5%83%A7-Jaina-blue)](https://gitee.com/dotnetchina/Jaina)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      | [![star](https://gitee.com/dotnetchina/Jaina/badge/star.svg?theme=gvp)](https://gitee.com/dotnetchina/Jaina/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 | .NET 事件总线，简化项目、类库、线程、服务等之间的通信，代码更少，质量更好。中。                                                                                                                                     | 2021.10.25&nbsp;&nbsp; |
 | [![sharding-core](https://img.shields.io/badge/%E8%96%9B%E5%AE%B6%E6%98%8E-sharding--core-blue)](https://gitee.com/dotnetchina/sharding-core)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                              | [![star](https://gitee.com/dotnetchina/sharding-core/badge/star.svg?theme=dark)](https://gitee.com/dotnetchina/sharding-core/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                       | ShardingCore 易用、简单、高性能、普适性，是一款扩展针对 EF Core 生态下的分表分库的扩展解决方案。                                             | 2021.09.30&nbsp;&nbsp; |
 | [![BIMFace.SDK](https://img.shields.io/badge/SavionZhang-BIMFace.SDK-blue)](https://gitee.com/NAlps/BIMFace.SDK)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                              | [![star](https://gitee.com/NAlps/BIMFace.SDK/badge/star.svg?theme=dark)](https://gitee.com/NAlps/BIMFace.SDK/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                       | 基于微软.NET 技术封装的用于 [BIMFACE](https://bimface.com/) 二次开发的通用类库。其中封装了 BIMFace 服务端 API。                                             | 2021.06.25&nbsp;&nbsp; |
 | [![CoreShop](https://img.shields.io/badge/%E5%A4%A7%E7%81%B0%E7%81%B0-CoreShop-blue)](https://gitee.com/CoreUnion/CoreShop)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                   | [![star](https://gitee.com/CoreUnion/CoreShop/badge/star.svg?theme=dark)](https://gitee.com/CoreUnion/CoreShop/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                     | 基于 Asp.Net Core 5.0、Uni-App 开发，支持可视化布局的小程序商城系统，前后端分离，拥有分销、代理、团购、拼团、秒杀、直播、优惠券、自定义表单等众多营销功能。 | 2021.06.04&nbsp;&nbsp; |
 | [![MiniExcel](https://img.shields.io/badge/%E6%9A%90%E7%BF%B0-MiniExcel-blue)](https://gitee.com/dotnetchina/MiniExcel)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                       | [![star](https://gitee.com/dotnetchina/MiniExcel/badge/star.svg?theme=dark)](https://gitee.com/dotnetchina/MiniExcel/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                               | MiniExcel 简单、高效避免 OOM 的.NET 处理 Excel 工具。                                                                                                       | 2021.04.05&nbsp;&nbsp; |
-| [![HZHControls控件库](https://img.shields.io/badge/%E5%86%B0%E5%B0%81%E4%B8%80%E5%A4%8F-HZHControls%E6%8E%A7%E4%BB%B6%E5%BA%93-blue)](https://gitee.com/kwwwvagaa/net_winform_custom_control)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [![star](https://gitee.com/kwwwvagaa/net_winform_custom_control/badge/star.svg?theme=dark)](https://gitee.com/kwwwvagaa/net_winform_custom_control/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | c#的 winform 自定义控件，对触屏具有更好的操作支持，项目是基于 framework4.0，完全原生控件开发，没有使用任何第三方控件。                                      | 2021.03.24&nbsp;&nbsp; |
 | [![DBCHM](https://img.shields.io/badge/%E7%A9%BA%E6%97%A0%E4%B8%80%E7%89%A9-DBCHM-blue)](https://gitee.com/dotnetchina/DBCHM)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                 | [![star](https://gitee.com/dotnetchina/DBCHM/badge/star.svg?theme=dark)](https://gitee.com/dotnetchina/DBCHM/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                       | 最简单，最实用的数据库文档生成工具，支持 SqlServer/MySQL/Oracle/PostgreSQL/DB2/SQLite 数据库。                                                              | 2021.03.15&nbsp;&nbsp; |
 | [![SiMayRemoteMonitorOS](https://img.shields.io/badge/koko-SiMayRemoteMonitorOS-blue)](https://gitee.com/dotnetchina/SiMayRemoteMonitorOS)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                    | [![star](https://gitee.com/dotnetchina/SiMayRemoteMonitorOS/badge/star.svg?theme=dark)](https://gitee.com/dotnetchina/SiMayRemoteMonitorOS/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         | Windows 远程控制系统，实现了基于逐行扫描算法远程桌面，桌面视图墙，文件管理，实时语音、视频监控，注册表管理，实时进程管理等功能。                            | 2021.03.12&nbsp;&nbsp; |
 | [![Anno.Core](https://img.shields.io/badge/%E6%9D%9C%E7%87%95%E6%98%8E-Anno.Core-blue)](https://gitee.com/dotnetchina/anno.core)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                              | [![star](https://gitee.com/dotnetchina/anno.core/badge/star.svg?theme=dark)](https://gitee.com/dotnetchina/anno.core/stargazers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                               | Anno 是一个微服务快速开发框架，底层通讯可以随意切换 grpc、thrift。                                                                                          | 2021.03.10&nbsp;&nbsp; |
@@ -118,18 +168,18 @@ dotNET China 社区衷心希望项目作者能够持续维护并活跃于项目�
 
 每期精选项目是 dotNET China 特别推出的栏目，收集或自荐国内优秀的 C#/.NET 开源项目进行推广和宣传，**更新频率为 13 天一期**。
 
-### 第 17 期 (2021/09/25)
+### 第 21 期 (2021/11/16)
 
-**Furion**
+**TimeCrontab**
 
-一个应用程序框架，您可以将它集成到任何 .NET/C# 应用程序中。
+.NET 全能 Cron 表达式解析库，支持 Cron 完整特性。
 
-[https://gitee.com/dotnetchina/Furion](https://gitee.com/dotnetchina/Furion)
+[https://gitee.com/dotnetchina/TimeCrontab](https://gitee.com/dotnetchina/TimeCrontab)
 
 <p style="margin:20px 0;">
-  <a href="https://gitee.com/dotnetchina/Furion" target="_blank">
+  <a href="https://gitee.com/dotnetchina/TimeCrontab" target="_blank">
   <img
-    src="https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Furion.png"
+    src="https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/TimeCrontab.png"
     style="width:100%;"
   />
   <a>
@@ -153,7 +203,11 @@ dotNET China 社区衷心希望项目作者能够持续维护并活跃于项目�
 
 | 第 17 期 (2021/09/25)                                                                                                                                                      | 第 18 期 (2021/10/08)                                                                                                                                                                    | 第 19 期 (2021/10/21)                                                                                                                                                             | 第 20 期 (2021/11/03)                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Furion.png)](https://gitee.com/dotnetchina/Furion) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/BootstrapAdmin.png)](https://gitee.com/dotnetchina/BootstrapAdmin) | ![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/default.png) | ![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/default.png) |
+| [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Furion.png)](https://gitee.com/dotnetchina/Furion) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/BootstrapAdmin.png)](https://gitee.com/LongbowEnterprise/BootstrapAdmin) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/sharding-core.png)](https://gitee.com/dotnetchina/sharding-core) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Jaina.png)](https://gitee.com/dotnetchina/Jaina) |
+
+| 第 21 期 (2021/11/16)                                                                                                                                                      | 第 22 期 (2021/11/29)                                                                                                                                                                    | 第 23 期 (2021/12/12)                                                                                                                                                             | 第 24 期 (2021/12/25)                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/TimeCrontab.png)](https://gitee.com/dotnetchina/TimeCrontab) | ![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/default.png) | ![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/default.png) | ![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/default.png) |
 
 **[🔶 点击查看更多每期精选](https://gitee.com/dotnetchina/home/tree/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE)**
 
@@ -166,12 +220,13 @@ dotNET China 社区组织对加入项目有以下最基本条件要求：
 - 项目需是完整的应用解决方案。
 - 项目需有良好的代码注释和不断完善的使用文档。
 - 项目需在 Gitee/Github 平台托管且 Stars 关注量大于 100。
+- 项目需提供单元测试或集成测试或基准测试。
 - 项目至少在近 2 个月内有实际有效的代码提交记录。
 - 项目除非特别优秀，否则不接受和 dotNET China 社区组织出现同质化的项目。
 - **项目介绍文案不能包含有损国家、人民词汇以及带有歧义/贬义词词汇**。
 - **项目项目需认同组织发展理念和遵守最基本的行为准则**。
-- **项目需得到 dotNET China 社区组织评委会的认可。采用投票少数服从多数原则**。
-- 优先考虑 Gitee 推荐项目或已获得 GVP 的项目。（GVP 项目需联系 Gitee 官方人员取消 GVP 后才能转移到组织，转移成功后恢复 GVP）
+- **项目需得到 dotNET China 社区组织评委会的认可，投票规则采用少数服从多数**。
+- 优先考虑 Gitee 推荐项目或已获得 GVP 的项目。（GVP 项目需联系 Gitee 官方人员取消 GVP 后才能转移到组织，转移成功后申请恢复 GVP）
 - 优选考虑容器工具、微服务应用、大数据处理、分布式事务、人工智能、IoT 物联网等领域项目。
 
 **由于特殊项目历史原因，原仓库存在过多的友链，如果转移到组织下势必会造成大面积死链情况，所以 dotNET China 也提供采用不转移项目方式，只需在源项目顶部添加以下声明即可：**
@@ -181,7 +236,7 @@ dotNET China 社区组织对加入项目有以下最基本条件要求：
 
 XXX 项目已加入 [dotNET China](https://gitee.com/dotnetchina)  组织。<br/>
 
-![dotnetchina](https://images.gitee.com/uploads/images/2021/0324/120117_2da9922c_416720.png "132645_21007ea0_974299.png")
+![dotnetchina](https://gitee.com/dotnetchina/home/raw/master/assets/dotnetchina-raw.png "dotNET China LOGO")
 ```
 
 **🎉来吧，加入我们！我们一起努力！**
@@ -211,9 +266,8 @@ MIP 专家是 dotNET China 社区设立奖励给对社区和开源事业有大�
 | MIP 专家名录                                                                                                                                        | MIP 专家名录                                                                                                                                        | MIP 专家名录                                                                                                                               | MIP 专家名录                                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%AF%8C%E5%AF%9F%E5%AE%8F%E7%A3%8A%20MIP.png) | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%91%A8%E6%9C%8B%20MIP.png)                   | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%AD%99%E5%87%AF%E6%97%8B%20MIP.png) | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%AD%9F%E5%81%A5%20MIP.png)          |
-| ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E5%BC%A0%E5%B9%BF%E5%9D%A1%20MIP.png)          | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%96%87%E5%85%89%E7%A7%91%20MIP.png)          | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%9D%8E%E7%8E%89%E5%AE%9D%20MIP.png) | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%9D%9C%E7%87%95%E6%98%8E%20MIP.png) |
+| ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E9%BB%84%E6%AD%A3%E8%BE%89%20MIP.png)          | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%96%87%E5%85%89%E7%A7%91%20MIP.png)          | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%9D%8E%E7%8E%89%E5%AE%9D%20MIP.png) | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%9D%9C%E7%87%95%E6%98%8E%20MIP.png) |
 | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E6%B2%88%E6%B0%B8%E5%8D%8E%20MIP.png)          | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E8%8B%A5%E6%B1%9D%E6%A3%8B%E8%8C%97%20MIP.png) | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E8%91%9B%E6%9D%B0%20MIP.png)          | ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E9%BA%A6%E5%A3%B3%E9%A5%BC%20MIP.png) |
-| ![](https://gitee.com/dotnetchina/home/raw/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%BD%95/%E9%BB%84%E6%AD%A3%E8%BE%89%20MIP.png)          |                                                                                                                                                     |                                                                                                                                            |                                                                                                                                            |
 
 **[🔶 点击查看全部 MIP 专家](https://gitee.com/dotnetchina/home/blob/master/MIP%20%E4%B8%93%E5%AE%B6%E5%90%8D%E5%8D%95.md)**
 
@@ -241,6 +295,8 @@ dotNET China 社区欢迎所有喜欢或从事 .NET/C# 开发的朋友，可以�
 - 负责新旧社区成员管理工作
 - 负责社区下所有孵化项目推广，宣传和项目版本更新日志维护
 - 负责统筹和执行社区组织的活动
+- 负责每期精选宣传海报设计
+- 负责活动组织和推广
 
 ## 行为准则
 
