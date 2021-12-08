@@ -1,6 +1,18 @@
-## 🎉 迎新公告
+## 🎉 年度评选
 
-2021年11月12日，[NanUI](https://gitee.com/dotnetchina/NanUI) 加入 dotNET China 组织。
+![2021年度 OSC中国开源项目评选](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021osc.png)
+
+请为您心仪的项目投上一票 🤞🤞🤞
+
+| [投一票](https://www.oschina.net/project/top_cn_2021/?id=134) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=580) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=344) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=302) |
+| ---- | ---- | ---- | ---- |
+| [![CCFlow](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021CCFlow.png)](https://www.oschina.net/project/top_cn_2021/?id=134) | [![CoreShop](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021CoreShop.png)](https://www.oschina.net/project/top_cn_2021/?id=580) | [![FastTunnel](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021FastTunnel.png)](https://www.oschina.net/project/top_cn_2021/?id=344) | [![IoTSharp](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021IoTSharp.png)](https://www.oschina.net/project/top_cn_2021/?id=302) |
+
+| [投一票](https://www.oschina.net/project/top_cn_2021/?id=585) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=548) | 我要上榜 | 我要上榜 |
+| ---- | ---- | ---- | ---- |
+| [![RRQMSocket](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021RRQMSocket.png)](https://www.oschina.net/project/top_cn_2021/?id=548) | [![SunnUI](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021SunnUI.png)](https://www.oschina.net/project/top_cn_2021/?id=580) | ![](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021me.png) | ![](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021me.png) |
+
+<!-- 2021年11月12日，[NanUI](https://gitee.com/dotnetchina/NanUI) 加入 dotNET China 组织。
 
 <p style="margin:20px 0;">
   <a href="https://gitee.com/dotnetchina/NanUI" target="_blank">
@@ -13,8 +25,8 @@
 
 **[🔶 点击查看更多迎新公告](https://gitee.com/dotnetchina/home/blob/master/%E8%BF%8E%E6%96%B0%E5%85%AC%E5%91%8A.md)**
 
------
-
+----- -->
+<!-- 
 ## 🔊 最新资讯
 
 <img
@@ -32,7 +44,7 @@
 | ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_fsharp.jpeg) | [F# 6 正式发布](https://www.oschina.net/news/168154/fsharp-6-released) | 2021-11-10 |
 | ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_furion.png) | [再起情怀！Furion v3.0.0 发布，完成 .NET6 兼容适配](https://www.oschina.net/news/168091/furion-3-0-0-released)| 2021-11-09 |
 | ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_timecrontab.png) |  [.NET 平台 Cron 表达式解析库 TimeCrontab v1.0.0 发布](https://www.oschina.net/news/166932/timecront-1-0-0-released)| 2021-11-02 |
-| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_jaina.jpeg) | [.NET 事件总线 Jaina v1.0.7 发布](https://www.oschina.net/news/166420/jaina-1-0-7-released)| 2021-11-02 |
+| ![](https://gitee.com/dotnetchina/home/raw/master/assets/news/2021-11/news_jaina.jpeg) | [.NET 事件总线 Jaina v1.0.7 发布](https://www.oschina.net/news/166420/jaina-1-0-7-released)| 2021-11-02 | -->
 
 <!-- ## 🎉程序员节
 
