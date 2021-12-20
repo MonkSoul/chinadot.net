@@ -1,20 +1,16 @@
-<!-- ## 🎉 2021年度 OSC中国开源项目评选
+## 🎉 2021年度OSC中国开源最受欢迎项目评选
 
-![2021年度 OSC中国开源项目评选](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021osc.png)
+![2021年度OSC中国开源最受欢迎项目评选](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021osc.png)
 
 ### 投票规则
 
-投票时间：2021年12月6日~2021年12月26日；**每个用户持有 5 票，同一项目只能投一票；**
+投票时间：2021年12月18日~2021年12月26日；**每个用户持有 5 票，同一项目只能投一票；**
 
-| [投一票](https://www.oschina.net/project/top_cn_2021/?id=134) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=580) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=344) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=302) |
-| ---- | ---- | ---- | ---- |
-| [![CCFlow](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021CCFlow.png)](https://www.oschina.net/project/top_cn_2021/?id=134) | [![CoreShop](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021CoreShop.png)](https://www.oschina.net/project/top_cn_2021/?id=580) | [![FastTunnel](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021FastTunnel.png)](https://www.oschina.net/project/top_cn_2021/?id=344) | [![IoTSharp](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021IoTSharp.png)](https://www.oschina.net/project/top_cn_2021/?id=302) |
+| [给 SunnyUI 一票](https://www.oschina.net/project/top_cn_2021/?id=548) |[投 IoTSharp 一票](https://www.oschina.net/project/top_cn_2021/?id=302) | [投 CoreShop 一票](https://www.oschina.net/project/top_cn_2021/?id=580) | 
+| ---- | ---- | ---- |
+| [![SunnUI](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021SunnUI.png)](https://www.oschina.net/project/top_cn_2021/?id=548) |[![IoTSharp](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021IoTSharp.png)](https://www.oschina.net/project/top_cn_2021/?id=302) | [![CoreShop](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021CoreShop.png)](https://www.oschina.net/project/top_cn_2021/?id=580) | 
 
-| [投一票](https://www.oschina.net/project/top_cn_2021/?id=585) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=548) | [投一票](https://www.oschina.net/project/top_cn_2021/?id=623) | 我要上榜 |
-| ---- | ---- | ---- | ---- |
-| [![RRQMSocket](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021RRQMSocket.png)](https://www.oschina.net/project/top_cn_2021/?id=585) | [![SunnUI](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021SunnUI.png)](https://www.oschina.net/project/top_cn_2021/?id=548) | [![ShardingCore](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021ShardingCore.png)](https://www.oschina.net/project/top_cn_2021/?id=623) | ![](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021me.png) |
-
-请为您心仪的项目投上一票 🤞🤞🤞 -->
+请为他们投上一票 🤞🤞🤞
 
 <!-- 2021年11月12日，[NanUI](https://gitee.com/dotnetchina/NanUI) 加入 dotNET China 组织。
 
@@ -72,7 +68,7 @@
   />
 </p> -->
 
-<!-- --- -->
+---
 
 <p></p>
 <p></p>
