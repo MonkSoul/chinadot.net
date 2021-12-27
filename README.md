@@ -1,4 +1,4 @@
-## 🎉 2021年度OSC中国开源最受欢迎项目评选
+<!-- ## 🎉 2021年度OSC中国开源最受欢迎项目评选
 
 ![2021年度OSC中国开源最受欢迎项目评选](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021osc.png)
 
@@ -10,7 +10,7 @@
 | ---- | ---- | ---- |
 | [![SunnUI](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021SunnUI.png)](https://www.oschina.net/project/top_cn_2021/?id=548) |[![IoTSharp](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021IoTSharp.png)](https://www.oschina.net/project/top_cn_2021/?id=302) | [![CoreShop](https://gitee.com/dotnetchina/home/raw/master/assets/osc/2021CoreShop.png)](https://www.oschina.net/project/top_cn_2021/?id=580) | 
 
-请为他们投上一票 🤞🤞🤞
+请为他们投上一票 🤞🤞🤞 -->
 
 <!-- 2021年11月12日，[NanUI](https://gitee.com/dotnetchina/NanUI) 加入 dotNET China 组织。
 
@@ -68,7 +68,7 @@
   />
 </p> -->
 
----
+<!-- --- -->
 
 <p></p>
 <p></p>
