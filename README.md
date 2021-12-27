@@ -182,18 +182,18 @@ dotNET China 社区衷心希望项目作者能够持续维护并活跃于项目�
 
 每期精选项目是 dotNET China 特别推出的栏目，收集或自荐国内优秀的 C#/.NET 开源项目进行推广和宣传，**更新频率为 13 天一期**。
 
-### 第 23 期 (2021/12/12)
+### 第 24 期 (2021/12/25)
 
-**NanUI**
+**Mars**
 
-NanUI 是一个开放源代码的 .NET 项目，它适用于希望使用 HTML5/CSS3 等前端技术来构建Windows窗体应用用户界面的 .NET/.NET Core 开发人员。
+C# 高性能实时数据库。
 
-[https://gitee.com/dotnetchina/NanUI](https://gitee.com/dotnetchina/NanUI)
+[https://gitee.com/chongdaoyang/mars](https://gitee.com/chongdaoyang/mars)
 
 <p style="margin:20px 0;">
-  <a href="https://gitee.com/dotnetchina/NanUI" target="_blank">
+  <a href="https://gitee.com/chongdaoyang/mars" target="_blank">
   <img
-    src="https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/NanUI.png"
+    src="https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Mars.png"
     style="width:100%;"
   />
   <a>
@@ -221,7 +221,7 @@ NanUI 是一个开放源代码的 .NET 项目，它适用于希望使用 HTML5/C
 
 | 第 21 期 (2021/11/16)                                                                                                                                                      | 第 22 期 (2021/11/29)                                                                                                                                                                    | 第 23 期 (2021/12/12)                                                                                                                                                             | 第 24 期 (2021/12/25)                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/TimeCrontab.png)](https://gitee.com/dotnetchina/TimeCrontab) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Sundial.png)](https://gitee.com/dotnetchina/NanUI) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/NanUI.png)](https://gitee.com/dotnetchina/NanUI) | ![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/default.png) |
+| [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/TimeCrontab.png)](https://gitee.com/dotnetchina/TimeCrontab) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Sundial.png)](https://gitee.com/dotnetchina/NanUI) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/NanUI.png)](https://gitee.com/dotnetchina/NanUI) | [![](https://gitee.com/dotnetchina/home/raw/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE/playbills/Mars.png)](https://gitee.com/chongdaoyang/mars) |
 
 **[🔶 点击查看更多每期精选](https://gitee.com/dotnetchina/home/tree/master/%E6%AF%8F%E6%9C%9F%E7%B2%BE%E9%80%89%E9%A1%B9%E7%9B%AE)**
 
